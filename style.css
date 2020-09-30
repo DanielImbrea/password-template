@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.password__inner {
+  padding: 0 42px;
+}
+
+.password__header {
+  background: linear-gradient(
+    rgba(187, 98, 241, 1),
+    rgba(125, 69, 244, 1)
+  );
+  height: 78px;
+  align-items: center;
+  display: flex;
+}
+
+.header__logo {
+  margin-left: 42px;
+}
+
+.password__section {
+  margin-top: 75px;
+  margin-bottom: 72px;
+}
+
+.password__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #2f2f2f;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: 76px;
+}
+
+.password__description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f2f2f;
+  margin-bottom: 65px;
+}
+
+.password__button {
+  background: #7345f4;
+  border-radius: 5px;
+  width: 188px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.password__button button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.password__footer {
+  background: #f8f8f8;
+  padding: 20px 42px;
+}
+.password__footer a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #7345f4;
+}
+
+.password__footer p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2f2f2f;
+  margin: 6px 0;
+}
+
+.password__footer p:first-child {
+  margin-top: -6px;
+}
+
+.footer__logo {
+  margin-bottom: 22px;
+}
+
+.footer__legal {
+  display: flex;
+  align-items: center;
+  margin-top: -6px;
+}
+
+.footer__legal a {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 400px) {
+  .password__title {
+    margin-bottom: 46px;
+  }
+
+  .password__description {
+    margin-bottom: 41px;
+  }
+
+  .password__button {
+    width: 100%;
+  }
+
+  .password__inner {
+    padding: 0 36px;
+  }
+
+  .password__section {
+    margin-top: 51px;
+    margin-bottom: 54px;
+  }
+
+  .password__footer {
+    padding: 20px 36px;
+  }
+
+  .header__logo img {
+    width: 156.32px;
+    height: 18px;
+  }
+
+  .password__footer p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .password__footer a {
+    font-size: 14px;
+  }
+}
